@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result_txt"
+        android:textSize="34sp"
+        android:layout_marginBottom="50dp"
+        android:textStyle="bold"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+        <Button
+            android:id="@+id/btn1"
+            android:onClick="check"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_marginLeft="10dp"
+            android:onClick="check"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btn3"
+            android:layout_marginLeft="10dp"
+            android:onClick="check"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btn4"
+            android:onClick="check"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btn5"
+            android:layout_marginLeft="10dp"
+            android:onClick="check"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btn6"
+            android:layout_marginLeft="10dp"
+            android:onClick="check"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btn7"
+            android:onClick="check"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btn8"
+            android:layout_marginLeft="10dp"
+            android:onClick="check"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btn9"
+            android:layout_marginLeft="10dp"
+            android:onClick="check"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+    </GridLayout>
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/refresh_imgBtn"
+        android:visibility="invisible"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_baseline_restart_alt_24"
+        android:contentDescription="@string/refresh"
+        android:background="@color/white"/>
+
+
+
+</LinearLayout>
